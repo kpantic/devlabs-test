@@ -9,7 +9,9 @@ from .base import *
 
 ########## DEBUG CONFIGURATION
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#debug
-DEBUG = True
+DEBUG = False
+
+ALLOWED_HOSTS = ('127.0.0.1', 'devlabs.talpor.com')
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#template-debug
 TEMPLATE_DEBUG = DEBUG
